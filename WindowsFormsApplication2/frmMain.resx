@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="ofdOpenFile.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="menuPrincipal.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>135, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="abrirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 20</value>
+  </data>
+  <data name="abrirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Abrir...</value>
+  </data>
+  <data name="passoAPassoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="passoAPassoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Algoritmo de Canny</value>
+  </data>
+  <data name="diretoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 22</value>
+  </data>
+  <data name="diretoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Operador de Sobel</value>
+  </data>
+  <data name="tipoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="tipoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="sobreToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 20</value>
+  </data>
+  <data name="sobreToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="sairToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 20</value>
+  </data>
+  <data name="sairToolStripMenuItem.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="menuPrincipal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuPrincipal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuPrincipal.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuPrincipal.Text" xml:space="preserve">
+    <value>menuPrincipal</value>
+  </data>
+  <data name="&gt;&gt;menuPrincipal.Name" xml:space="preserve">
+    <value>menuPrincipal</value>
+  </data>
+  <data name="&gt;&gt;menuPrincipal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuPrincipal.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuPrincipal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblChosenFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblChosenFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 8</value>
+  </data>
+  <data name="lblChosenFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="lblChosenFile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblChosenFile.Name" xml:space="preserve">
+    <value>lblChosenFile</value>
+  </data>
+  <data name="&gt;&gt;lblChosenFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblChosenFile.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblChosenFile.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>264, 17</value>
+  </metadata>
+  <data name="panelMsg.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="msg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="msg.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="msg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="msg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="msg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 15</value>
+  </data>
+  <data name="msg.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="msg.Text" xml:space="preserve">
+    <value>Mensagem:</value>
+  </data>
+  <data name="&gt;&gt;msg.Name" xml:space="preserve">
+    <value>msg</value>
+  </data>
+  <data name="&gt;&gt;msg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;msg.Parent" xml:space="preserve">
+    <value>panelMsg</value>
+  </data>
+  <data name="&gt;&gt;msg.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblmsg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblmsg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 0</value>
+  </data>
+  <data name="lblmsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 40</value>
+  </data>
+  <data name="lblmsg.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblmsg.Name" xml:space="preserve">
+    <value>lblmsg</value>
+  </data>
+  <data name="&gt;&gt;lblmsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblmsg.Parent" xml:space="preserve">
+    <value>panelMsg</value>
+  </data>
+  <data name="&gt;&gt;lblmsg.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 55</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 28</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Algoritmo Utilizado:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panelMsg</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblnomeAlg.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblnomeAlg.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblnomeAlg.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblnomeAlg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 55</value>
+  </data>
+  <data name="lblnomeAlg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>295, 28</value>
+  </data>
+  <data name="lblnomeAlg.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblnomeAlg.Name" xml:space="preserve">
+    <value>lblnomeAlg</value>
+  </data>
+  <data name="&gt;&gt;lblnomeAlg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblnomeAlg.Parent" xml:space="preserve">
+    <value>panelMsg</value>
+  </data>
+  <data name="&gt;&gt;lblnomeAlg.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panelMsg.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 432</value>
+  </data>
+  <data name="panelMsg.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="panelMsg.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 83</value>
+  </data>
+  <data name="panelMsg.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;panelMsg.Name" xml:space="preserve">
+    <value>panelMsg</value>
+  </data>
+  <data name="&gt;&gt;panelMsg.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMsg.Parent" xml:space="preserve">
+    <value>tab_lay_imgs</value>
+  </data>
+  <data name="&gt;&gt;panelMsg.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panelMsg.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="msg" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblmsg" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="lblnomeAlg" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="AutoSize,0,AutoSize,0" /&gt;&lt;Rows Styles="Percent,66,66666,Percent,33,33333,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ibCanny.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ibCanny.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ibCanny.Location" type="System.Drawing.Point, System.Drawing">
+    <value>395, 3</value>
+  </data>
+  <data name="ibCanny.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 423</value>
+  </data>
+  <data name="ibCanny.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="ibCanny.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ibCanny.Name" xml:space="preserve">
+    <value>ibCanny</value>
+  </data>
+  <data name="&gt;&gt;ibCanny.Type" xml:space="preserve">
+    <value>Emgu.CV.UI.ImageBox, Emgu.CV.UI, Version=3.1.0.2282, Culture=neutral, PublicKeyToken=7281126722ab4438</value>
+  </data>
+  <data name="&gt;&gt;ibCanny.Parent" xml:space="preserve">
+    <value>tab_lay_imgs</value>
+  </data>
+  <data name="&gt;&gt;ibCanny.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ibOriginal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ibOriginal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ibOriginal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ibOriginal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 423</value>
+  </data>
+  <data name="ibOriginal.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="ibOriginal.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ibOriginal.Name" xml:space="preserve">
+    <value>ibOriginal</value>
+  </data>
+  <data name="&gt;&gt;ibOriginal.Type" xml:space="preserve">
+    <value>Emgu.CV.UI.ImageBox, Emgu.CV.UI, Version=3.1.0.2282, Culture=neutral, PublicKeyToken=7281126722ab4438</value>
+  </data>
+  <data name="&gt;&gt;ibOriginal.Parent" xml:space="preserve">
+    <value>tab_lay_imgs</value>
+  </data>
+  <data name="&gt;&gt;ibOriginal.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tab_lay_imgs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tab_lay_imgs.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
+    <value>GrowAndShrink</value>
+  </data>
+  <data name="tab_lay_imgs.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tab_lay_imgs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tab_lay_imgs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="tab_lay_imgs.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tab_lay_imgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 537</value>
+  </data>
+  <data name="tab_lay_imgs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tab_lay_imgs.Name" xml:space="preserve">
+    <value>tab_lay_imgs</value>
+  </data>
+  <data name="&gt;&gt;tab_lay_imgs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tab_lay_imgs.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tab_lay_imgs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tab_lay_imgs.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ibOriginal" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ibCanny" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="panelMsg" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,80,Percent,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>51</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 561</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Edge</value>
+  </data>
+  <data name="&gt;&gt;ofdOpenFile.Name" xml:space="preserve">
+    <value>ofdOpenFile</value>
+  </data>
+  <data name="&gt;&gt;ofdOpenFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tipoToolStripMenuItem.Name" xml:space="preserve">
+    <value>tipoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;tipoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;passoAPassoToolStripMenuItem.Name" xml:space="preserve">
+    <value>passoAPassoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;passoAPassoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;diretoToolStripMenuItem.Name" xml:space="preserve">
+    <value>diretoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;diretoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sobreToolStripMenuItem.Name" xml:space="preserve">
+    <value>sobreToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;sobreToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sairToolStripMenuItem.Name" xml:space="preserve">
+    <value>sairToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;sairToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;abrirToolStripMenuItem.Name" xml:space="preserve">
+    <value>abrirToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;abrirToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
